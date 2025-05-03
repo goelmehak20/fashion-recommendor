@@ -1,12 +1,13 @@
-AI-Based Smart Fashion Recommender System
+# AI-Based Smart Fashion Recommender System
 
-Overview
+## Overview
 
 This project is a **personalized AI-powered fashion recommendation system** that suggests clothing options based on user inputs such as gender, occasion, season, weather conditions, and AI-based style prediction. The system combines machine learning, computer vision, and real-time data to deliver smart, context-aware fashion suggestions.
 
 The frontend is built with **React.js**, the backend uses **FastAPI**, and the system integrates **MongoDB** for storing user profiles and recommendations. A style prediction model is included that processes webcam input or uploaded images to infer the user’s current style. Real-time weather data is fetched from an external API to adjust recommendations accordingly.
 
-Features
+
+## Features
 
 * Personalized clothing recommendations based on:
 
@@ -22,7 +23,6 @@ Features
 * Styled using Tailwind CSS for a modern look
 * Built with modular and scalable components
 
----
 
 ## Project Architecture
 
@@ -37,7 +37,6 @@ Features
 
   * OpenWeather API for real-time weather conditions
 
----
 
 ## Modules Breakdown
 
@@ -69,7 +68,6 @@ Features
    * Processes inputs and returns relevant recommendations.
    * Communicates with MongoDB for storing and retrieving user history.
 
----
 
 ## Installation Instructions
 
@@ -104,7 +102,6 @@ Create `.env` files to store:
 * MongoDB connection string
 * Any model paths (if needed)
 
----
 
 ## Dataset Used
 
@@ -118,7 +115,6 @@ The recommendation engine is trained on a custom CSV dataset containing clothing
 * Price
 * Style Tags
 
----
 
 ## How It Works
 
@@ -128,31 +124,8 @@ The recommendation engine is trained on a custom CSV dataset containing clothing
 4. Backend processes all inputs and returns a list of clothing suggestions.
 5. The recommendations are displayed in a visually appealing format.
 
----
-
-## Future Enhancements
-
-* Add user login and profile saving
-* Improve model using DeepFashion or larger labeled datasets
-* Add recommendation explanations (why a style was suggested)
-* Support for multilingual users
-* Allow clothing links or affiliate shopping integrations
-
----
-
-## Team & Contributions
-
-* **Project Lead & Full Stack Developer**: Mehak Goel
-* **AI/ML Development**: (You can mention your role)
-* **UI/UX Design**
-* **Documentation & Testing**
-
----
 
 ## License
 
 This project is for academic purposes and open for learning and demonstration. For any reuse or contributions, kindly mention the source and credit the author(s).
 
----
-
-Let me know if you want this README in `.md` file format or added to your actual GitHub project.
